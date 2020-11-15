@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lee.alarmclock.enquiz">
+
+    <TextView
+        android:id="@+id/txt_q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:text="英文"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="70sp" />
+
+    <EditText
+        android:id="@+id/etxt_q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="check"
+        android:text="Button" />
+</LinearLayout>
